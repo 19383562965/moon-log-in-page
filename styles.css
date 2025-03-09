@@ -1,0 +1,90 @@
+body {
+  background-image: url('moon.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgb(3, 5, 17);
+}
+.pic {
+  position: fixed;
+  height: 100vh;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  cursor: default;
+  transition: 0.5s;
+  margin-left: -70%;
+  backdrop-filter: blur(2px);
+  box-shadow: 0 0 300px rgb(78, 78, 78);
+}
+.pic:hover {
+  transform: scale(1.05);
+  border-radius: 10px;
+  margin-left: 1%;
+  box-shadow: 0 0 300px rgb(78, 78, 78);
+  backdrop-filter: blur(20px);
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: clamp(50px, 20vw, 10px);
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  cursor: default;
+}
+
+a {
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  height: 30px;
+  padding: 10px 20px;
+  font-size: 50wv;
+  margin-top: 20vh;
+  margin: 20%;
+  background-color: rgba(0, 0, 0, 0.623);
+  text-align: center;
+  border-radius: 10px;
+  border: solid 5px rgba(0, 0, 0, 0.205);
+  transition: 0.15s;
+  box-shadow: 0 0 10px white;
+  cursor: pointer;
+}
+a:hover {
+  background-color: rgb(175, 175, 175);
+  color: rgb(0, 0, 0);
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+
+}
+input {
+
+  padding: 10px 0px;
+  padding-left: 40px;
+  height: 3vh;
+  color: rgb(154, 208, 255);
+  color: aliceblue;
+  background-color: rgba(0, 0, 0, 0.623);
+  border: solid 5px rgba(0, 0, 0, 0.205);
+  border-radius: 10px;
+  transition: 0.5s;
+  box-shadow: 0 0 10px white;
+  cursor: text;
+}
+input:hover {
+  transition: 0.15s;
+  background-color: rgb(175, 175, 175);
+}
+input:focus {
+  transition: 1s;
+  background-color: rgb(175, 175, 175);
+  padding: 10px 20px;
+  color: rgb(0, 0, 0);
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+.space {
+  transition: 1s;
+}
+.space:hover {
+  margin-top: 10vh;
+  transform: scale(3);
+  text-shadow: 0 0 20px white;
+}
